@@ -2,10 +2,7 @@
 @import 'tailwindcss';
 
 /* Custom CSS Variables for Library Colors */
-:root {
-  --lib-dark: #262626;
-  --lib-light: #C7C7C7;
-}
+
 
 /* Custom animations */
 @keyframes spin-slow {
@@ -16,21 +13,4 @@
 /* Custom utilities */
 .animate-spin-slow {
   animation: spin-slow 20s linear infinite;
-}
-
-/* Custom utility classes for your library colors */
-.bg-lib-dark {
-  background-color: var(--lib-dark);
-}
-
-.text-lib-light {
-  color: var(--lib-light);
-}
-
-.border-lib-dark {
-  border-color: var(--lib-dark);
-}
-
-.border-lib-light {
-  border-color: var(--lib-light);
 }
