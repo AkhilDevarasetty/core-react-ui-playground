@@ -1,3 +1,4 @@
+import '@akhil_dev/core-react-ui-component-library/styles.css';
 import { Button, Tooltip, ToastPopUp, Badge, Banner } from "@akhil_dev/core-react-ui-component-library";
 import { BiInfoCircle } from "react-icons/bi";
 import type { ComponentData, Category } from "../types";
