@@ -21,8 +21,8 @@ export interface SidebarProps {
   categories: Category[];
   selectedCategory: string;
   selectedComponent: string;
-  onCategorySelect: (category: string) => void;
   onComponentSelect: (category: string, component: string) => void;
+  onOverviewSelect: () => void;
 }
 
 export interface ComponentShowcaseProps {
