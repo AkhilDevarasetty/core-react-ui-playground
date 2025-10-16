@@ -1,8 +1,10 @@
 // Types for the playground components
+import type { ReactElement } from 'react';
+
 export interface ComponentExample {
   title: string;
   description: string;
-  component: JSX.Element;
+  component: ReactElement;
   code: string;
 }
 

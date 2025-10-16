@@ -4,6 +4,7 @@ import type { ComponentExample } from './types';
 interface CodeBlockProps {
   example: ComponentExample;
   componentName: string;
+  exampleIndex: number;
   copiedCode: string | null;
   onCopyCode: (code: string, id: string) => void;
 }
